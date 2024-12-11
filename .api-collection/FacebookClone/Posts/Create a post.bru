@@ -1,0 +1,20 @@
+meta {
+  name: Create a post
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{BASE}}/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "body": "My very first cool post",
+    "media": [
+      
+    ]
+  }
+}
