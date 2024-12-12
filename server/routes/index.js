@@ -33,6 +33,7 @@ router.post('/login', authController.login)
 router.post('/register', authController.register)
 
 router.get('/posts', postController.getPosts)
+router.post('/posts', postController.createPost)
 
 // exports.validateCsrfToken = validateCsrfToken
 

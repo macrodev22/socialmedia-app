@@ -5,7 +5,7 @@
         </div>
         <div class="w-full" v-if="post.media">
             <template v-for="media of post.media">
-                <img :src="media.src" v-if="media.type == 'image'">
+                <img :src="media.uri" v-if="media.type == 'image'">
             </template>
         </div>
         <div class="flex p-4">
